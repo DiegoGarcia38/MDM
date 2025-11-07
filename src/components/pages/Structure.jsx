@@ -49,7 +49,7 @@ const Structure = ({ setCurrentScreen, setUserProgress }) => {
         </div>
 
         <div className="code-example">
-          <h3 className="code-title">📄 Ejemplo práctico en XML</h3>
+          <h3 className="code-title">Ejemplo práctico en XML</h3>
           <p className="code-description">
             Observa cómo se estructuran los metadatos en formato XML. Este estándar permite 
             que tanto humanos como máquinas comprendan la información:
@@ -83,9 +83,7 @@ const Structure = ({ setCurrentScreen, setUserProgress }) => {
   </metadatos>
 </documento>`}
           </pre>
-          <p className="code-note">
-            💡 Nota: Cada elemento entre &lt; &gt; representa un metadato específico que describe el documento.
-          </p>
+          
         </div>
       </div>
 
@@ -94,8 +92,7 @@ const Structure = ({ setCurrentScreen, setUserProgress }) => {
           onClick={() => setCurrentScreen('concept')}
           className="btn-secondary"
         >
-          <ArrowLeft className="button-icon" />
-          Anterior
+          ← Anterior
         </button>
         <button
           onClick={() => {

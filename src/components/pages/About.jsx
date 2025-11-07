@@ -19,19 +19,19 @@ const About = ({ setCurrentScreen, setUserProgress }) => {
         
         <div className="content-grid">
           <div className="info-card bg-primary-light">
-            <h3 className="info-card-title">📌 Objetivo general</h3>
+            <h3 className="info-card-title">Objetivo general</h3>
             <p className="info-card-text">
-              Comprender qué son los metadatos, su estructura, utilidad y aplicación en diferentes 
-              contextos digitales a través de una página web interactiva.
+              Comprender qué son los metadatos y su aplicación en diferentes 
+              contextos.
             </p>
           </div>
 
           <div className="info-card bg-success-light">
-            <h3 className="info-card-title">🎯 Objetivos específicos</h3>
+            <h3 className="info-card-title">Objetivos específicos</h3>
             <ul className="info-list">
               <li className="info-list-item">
                 <span className="list-number">1.</span>
-                <span>Definir el concepto de metadato y su propósito en la organización de la información</span>
+                <span>El concepto de metadato y su propósito en la organización de la información</span>
               </li>
               <li className="info-list-item">
                 <span className="list-number">2.</span>
@@ -53,7 +53,7 @@ const About = ({ setCurrentScreen, setUserProgress }) => {
           </div>
 
           <div className="info-card bg-accent-light">
-            <h3 className="info-card-title">📚 Estructura del curso</h3>
+            <h3 className="info-card-title">Estructura del curso</h3>
             <div className="structure-list">
               <div className="structure-item">
                 <div className="structure-number">1</div>
@@ -79,7 +79,7 @@ const About = ({ setCurrentScreen, setUserProgress }) => {
           </div>
 
           <div className="info-card bg-gray-light">
-            <h3 className="info-card-title">👥 Equipo de desarrollo</h3>
+            <h3 className="info-card-title">Equipo de desarrollo</h3>
             <div className="team-grid">
               <div>
                 <p className="team-role">Consultor:</p>

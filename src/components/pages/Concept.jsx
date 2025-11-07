@@ -15,38 +15,34 @@ const Concept = ({ setCurrentScreen, setUserProgress }) => {
               En términos simples: <span className="highlight">"son datos sobre datos"</span>.
             </p>
             <p className="section-text">
-              Se utilizan para facilitar la identificación, búsqueda, gestión y preservación de recursos digitales 
-              en múltiples contextos: documentos, imágenes, páginas web, bases de datos y archivos multimedia.
+              Se utilizan para facilitar la identificación de recursos digitales 
+              en múltiples contextos como lo son los documentos, imágenes, páginas web, bases de datos etc.
             </p>
           </div>
           
           <div className="examples-card">
-            <h3 className="examples-title">Ejemplos cotidianos:</h3>
+            <h3 className="examples-title">Ejemplos:</h3>
             <div className="examples-list">
               <div className="example-item">
                 <div className="example-header">
-                  <span className="example-icon">📷</span>
                   <span className="example-name">Fotografías digitales</span>
                 </div>
                 <p className="example-detail">Fecha, hora, ubicación GPS, modelo de cámara, ISO, apertura</p>
               </div>
               <div className="example-item">
                 <div className="example-header">
-                  <span className="example-icon">📄</span>
                   <span className="example-name">Documentos</span>
                 </div>
                 <p className="example-detail">Autor, fecha de creación y modificación, tamaño, versión</p>
               </div>
               <div className="example-item">
                 <div className="example-header">
-                  <span className="example-icon">🌐</span>
                   <span className="example-name">Páginas web</span>
                 </div>
                 <p className="example-detail">Título, descripción, palabras clave, idioma, codificación</p>
               </div>
               <div className="example-item">
                 <div className="example-header">
-                  <span className="example-icon">🎵</span>
                   <span className="example-name">Archivos de audio</span>
                 </div>
                 <p className="example-detail">Artista, álbum, año, género, duración, calidad de bits</p>
@@ -56,7 +52,7 @@ const Concept = ({ setCurrentScreen, setUserProgress }) => {
         </div>
 
         <div className="flow-diagram">
-          <h3 className="flow-title">💡 Flujo de metadatos en la web</h3>
+          <h3 className="flow-title">Flujo de metadatos en la web</h3>
           <div className="flow-steps">
             <div className="flow-step">
               <div className="step-icon">📁</div>
@@ -85,12 +81,11 @@ const Concept = ({ setCurrentScreen, setUserProgress }) => {
         </div>
 
         <div className="summary-card">
-          <h3 className="summary-title">✓ Resumen clave</h3>
+          <h3 className="summary-title">Resumen</h3>
           <p className="summary-text">
-            Los metadatos son esenciales para organizar, buscar y gestionar información digital. 
-            Funcionan como "etiquetas inteligentes" que permiten a humanos y máquinas comprender 
-            el contenido sin necesidad de abrirlo. Son la base de la búsqueda efectiva en internet, 
-            bibliotecas digitales y sistemas de gestión de contenidos.
+            Los metadatos son necesarios para gestionar información digital. 
+            Funcionan como etiquetas inteligentes que permiten a las personas y a las máquinas comprender 
+            el contenido sin necesidad de abrirlo.
           </p>
         </div>
       </div>
@@ -100,8 +95,7 @@ const Concept = ({ setCurrentScreen, setUserProgress }) => {
           onClick={() => setCurrentScreen('about')}
           className="btn-secondary"
         >
-          <ArrowLeft className="button-icon" />
-          Información del curso
+          ← Información del curso
         </button>
         <button
           onClick={() => {

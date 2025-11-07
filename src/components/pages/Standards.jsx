@@ -44,15 +44,15 @@ const Standards = ({ setCurrentScreen, setUserProgress }) => {
 
   const standardInfo = {
     dublin: {
-      title: '📚 Dublin Core - Metadatos bibliotecarios',
+      title: 'Dublin Core - Metadatos bibliotecarios',
       description: 'Estándar internacional para describir recursos digitales y físicos. Usado en bibliotecas, archivos y museos.'
     },
     exif: {
-      title: '📷 EXIF - Metadatos de imágenes digitales',
+      title: 'EXIF - Metadatos de imágenes digitales',
       description: 'Formato estándar que almacena información de captura en fotografías digitales (cámara, configuración, ubicación).'
     },
     html: {
-      title: '🌐 HTML Meta Tags - Metadatos para páginas web',
+      title: 'HTML Meta Tags - Metadatos para páginas web',
       description: 'Etiquetas meta del HTML que ayudan a buscadores y redes sociales a entender el contenido de tu página web.'
     }
   };
@@ -72,19 +72,19 @@ const Standards = ({ setCurrentScreen, setUserProgress }) => {
             onClick={() => setXmlStandard('dublin')}
             className={`tab-button ${xmlStandard === 'dublin' ? 'tab-active' : ''}`}
           >
-            📚 Dublin Core
+            Dublin Core
           </button>
           <button
             onClick={() => setXmlStandard('exif')}
             className={`tab-button ${xmlStandard === 'exif' ? 'tab-active' : ''}`}
           >
-            📷 EXIF
+            EXIF
           </button>
           <button
             onClick={() => setXmlStandard('html')}
             className={`tab-button ${xmlStandard === 'html' ? 'tab-active' : ''}`}
           >
-            🌐 HTML Meta Tags
+            HTML Meta Tags
           </button>
         </div>
 
@@ -151,7 +151,7 @@ const Standards = ({ setCurrentScreen, setUserProgress }) => {
         </div>
 
         <div className="case-study">
-          <h4 className="case-title">💡 Caso práctico</h4>
+          <h4 className="case-title">Caso práctico</h4>
           <p className="case-text">
             Cuando compartes un enlace en Facebook o Twitter, las redes sociales leen los metadatos 
             HTML (Open Graph y Twitter Cards) para generar una vista previa atractiva con imagen, 
@@ -165,8 +165,7 @@ const Standards = ({ setCurrentScreen, setUserProgress }) => {
           onClick={() => setCurrentScreen('structure')}
           className="btn-secondary"
         >
-          <ArrowLeft className="button-icon" />
-          Anterior
+          ← Anterior
         </button>
         <button
           onClick={() => {

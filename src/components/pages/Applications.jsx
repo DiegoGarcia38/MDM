@@ -14,10 +14,10 @@ const Applications = ({ setCurrentScreen, setUserProgress }) => {
 
         <div className="applications-grid">
           <div className="application-card app-search">
-            <div className="app-icon">🔍</div>
+
             <h3 className="app-title">Motores de búsqueda</h3>
             <p className="app-description">
-              Los metadatos ayudan a Google, Bing y otros buscadores a entender y clasificar 
+              Los metadatos ayudan a Google, Bing y otros buscadores a entender
               el contenido web para mostrarlo en resultados relevantes.
             </p>
             <div className="app-example">
@@ -27,11 +27,11 @@ const Applications = ({ setCurrentScreen, setUserProgress }) => {
           </div>
           
           <div className="application-card app-social">
-            <div className="app-icon">📱</div>
+
             <h3 className="app-title">Redes sociales</h3>
             <p className="app-description">
               Facebook, Twitter e Instagram usan metadatos para generar previsualizaciones 
-              atractivas de enlaces compartidos (Open Graph Protocol).
+              atractivas de enlaces compartidos.
             </p>
             <div className="app-example">
               <strong>Ejemplo:</strong> Cuando compartes un artículo, aparece automáticamente 
@@ -40,11 +40,10 @@ const Applications = ({ setCurrentScreen, setUserProgress }) => {
           </div>
           
           <div className="application-card app-gallery">
-            <div className="app-icon">🖼️</div>
             <h3 className="app-title">Galerías digitales</h3>
             <p className="app-description">
               Museos, bibliotecas digitales y archivos históricos utilizan metadatos para 
-              catalogar y facilitar búsquedas en colecciones de millones de obras.
+              facilitar búsquedas en colecciones de millones de obras.
             </p>
             <div className="app-example">
               <strong>Ejemplo:</strong> El Museo del Prado usa Dublin Core para catalogar 
@@ -53,11 +52,11 @@ const Applications = ({ setCurrentScreen, setUserProgress }) => {
           </div>
           
           <div className="application-card app-streaming">
-            <div className="app-icon">🎵</div>
-            <h3 className="app-title">Streaming multimedia</h3>
+
+            <h3 className="app-title">Streaming</h3>
             <p className="app-description">
               Spotify, Netflix y YouTube organizan su contenido usando metadatos para 
-              recomendar música, películas y videos personalizados.
+              recomendar contenidos personalizados.
             </p>
             <div className="app-example">
               <strong>Ejemplo:</strong> Spotify usa metadatos de género, tempo, artista 
@@ -70,12 +69,12 @@ const Applications = ({ setCurrentScreen, setUserProgress }) => {
           <div className="app-mini-card">
             <div className="mini-icon">📚</div>
             <h4 className="mini-title">Bibliotecas digitales</h4>
-            <p className="mini-description">Sistemas de catalogación como MARC21</p>
+            <p className="mini-description">Sistemas de catalogación</p>
           </div>
           <div className="app-mini-card">
             <div className="mini-icon">🏥</div>
             <h4 className="mini-title">Sistemas médicos</h4>
-            <p className="mini-description">Historias clínicas y estudios radiológicos (DICOM)</p>
+            <p className="mini-description">Historias clínicas y estudios radiológicos</p>
           </div>
           <div className="app-mini-card">
             <div className="mini-icon">🛒</div>
@@ -85,11 +84,10 @@ const Applications = ({ setCurrentScreen, setUserProgress }) => {
         </div>
 
         <div className="impressive-fact">
-          <h3 className="fact-title">💡 Dato impresionante</h3>
+          <h3 className="fact-title">Dato curioso</h3>
           <p className="fact-text">
             Sin metadatos, sería prácticamente imposible encontrar información específica entre los 
-            <strong> más de 1.8 mil millones de sitios web</strong> que existen actualmente en internet. 
-            Los metadatos son el "sistema nervioso" de la información digital moderna.
+            <strong> más de 1.8 mil millones de sitios web</strong> que existen actualmente en internet.
           </p>
         </div>
       </div>
@@ -99,8 +97,7 @@ const Applications = ({ setCurrentScreen, setUserProgress }) => {
           onClick={() => setCurrentScreen('standards')}
           className="btn-secondary"
         >
-          <ArrowLeft className="button-icon" />
-          Anterior
+          ← Anterior
         </button>
         <button
           onClick={() => {

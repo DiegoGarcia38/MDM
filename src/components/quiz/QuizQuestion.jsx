@@ -126,7 +126,7 @@ const Quiz = ({ setCurrentScreen, setUserProgress }) => {
     return (
       <div className="screen-container">
         <div className="card">
-          <h2 className="screen-title">📊 Resultados del Quiz</h2>
+          <h2 className="screen-title">Resultados del Quiz</h2>
           
           <div className="results-summary">
             <div className="score-circle">
@@ -153,17 +153,17 @@ const Quiz = ({ setCurrentScreen, setUserProgress }) => {
           <div className="results-feedback">
             {score.percentage >= 80 ? (
               <div className="feedback-excellent">
-                <h3>🎉 ¡Excelente trabajo!</h3>
+                <h3>¡Excelente trabajo!</h3>
                 <p>Demuestras un gran entendimiento de los conceptos de metadatos.</p>
               </div>
             ) : score.percentage >= 60 ? (
               <div className="feedback-good">
-                <h3>👍 Buen trabajo</h3>
+                <h3>Buen trabajo</h3>
                 <p>Tienes una buena base, pero puedes mejorar con un poco más de práctica.</p>
               </div>
             ) : (
               <div className="feedback-improve">
-                <h3>📚 Sigue aprendiendo</h3>
+                <h3>Sigue aprendiendo</h3>
                 <p>Te recomendamos repasar los conceptos antes de continuar.</p>
               </div>
             )}
@@ -228,7 +228,7 @@ const Quiz = ({ setCurrentScreen, setUserProgress }) => {
         <div className="quiz-section">
           <div className="quiz-header">
             <h3 className="quiz-title">
-              📝 Quiz de comprensión
+              Quiz de comprensión
             </h3>
             <div className="quiz-progress-container">
               <span className="quiz-progress">
@@ -327,7 +327,7 @@ const Quiz = ({ setCurrentScreen, setUserProgress }) => {
         <div className="exercise-section">
           <h3 className="exercise-title">
             <Code className="exercise-icon" />
-            🛠️ Ejercicio práctico: Crea tu XML
+            Ejercicio práctico: Crea tu XML
           </h3>
           <p className="exercise-description">
             Completa el siguiente código XML con metadatos para describir tu libro favorito. 
@@ -347,12 +347,12 @@ const Quiz = ({ setCurrentScreen, setUserProgress }) => {
 </libro>`}
           />
           <p className="exercise-tip">
-            💡 Tip: Respeta la estructura XML con etiquetas de apertura y cierre correctas.
+            Tip: Respeta la estructura XML con etiquetas de apertura y cierre correctas.
           </p>
         </div>
 
         <div className="analysis-section">
-          <h3 className="analysis-title">🎯 Actividad de análisis</h3>
+          <h3 className="analysis-title">Actividad de análisis</h3>
           <p className="analysis-description">
             Observa esta fotografía digital y sus metadatos EXIF. ¿Qué información puedes obtener sin ver la imagen?
           </p>
@@ -377,8 +377,7 @@ const Quiz = ({ setCurrentScreen, setUserProgress }) => {
             onClick={() => setCurrentScreen('applications')}
             className="btn-secondary"
           >
-            <ArrowLeft className="button-icon" />
-            Anterior
+            ← Anterior
           </button>
         </div>
       </div>
